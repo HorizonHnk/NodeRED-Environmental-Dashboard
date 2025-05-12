@@ -23,3 +23,16 @@ The system features several interconnected monitoring panels:
 > **Pro Tip**: The dashboard can be accessed from any device with a web browser, including mobile phones and tablets.
 
 ### Technical Architecture
+┌─────────────┐    ┌─────────────┐    ┌─────────────┐
+│ Data Sources │───>│ Node-RED    │───>│ Dashboard   │
+│ & Sensors    │    │ Processors  │    │ Interface   │
+└─────────────┘    └─────────────┘    └─────────────┘
+│
+v
+┌─────────────┐
+│ Alert System │
+│ (WhatsApp)   │
+
+## Video Tutorials
+For complete setup and configuration guides, check our YouTube channel:
+[Environmental IoT Solutions](https://www.youtube.com/playlist?list=PLrZbkNpNVSwwNmVhX9jaTQYm4oCd6WHbP)
